@@ -1,0 +1,31 @@
+hash: 4b3e2b5fed83a5f00a6c9ac75501500b96d721de44d234f8a2861b0828ec8cca
+updated: 2017-06-27T07:55:20.464395918+02:00
+imports:
+- name: github.com/andybalholm/cascadia
+  version: 349dd0209470eabd9514242c688c403c0926d266
+- name: github.com/headzoo/surf
+  version: 258b78a318a80b216e7d1033a8a4353341f7f4f8
+  subpackages:
+  - agent
+  - browser
+  - errors
+  - jar
+  - util
+- name: github.com/PuerkitoBio/goquery
+  version: 8806ada2a4ab225c06e9106f9631be80932db7ce
+- name: golang.org/x/crypto
+  version: adbae1b6b6fb4b02448a0fc0dbbc9ba2b95b294d
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 5f8847ae0d0e90b6a9dc8148e7ad616874625171
+  subpackages:
+  - html
+  - html/atom
+- name: golang.org/x/sys
+  version: c23410a886927bab8ca5e80b08af6a56faeb330d
+  subpackages:
+  - unix
+- name: gopkg.in/headzoo/surf.v1
+  version: 3ab5b77981eb350c4821694b70cddc90d59e791c
+testImports: []
