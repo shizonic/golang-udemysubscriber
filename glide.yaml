@@ -1,0 +1,7 @@
+package: github.com/shizonic/udemysubscriber
+import:
+- package: gopkg.in/headzoo/surf.v1
+- package: github.com/PuerkitoBio/goquery
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
